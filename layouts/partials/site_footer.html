@@ -12,7 +12,7 @@
   
     <p class="powered-by">
       {{ $is_sponsor := site.Params.i_am_a_sponsor | default false }}
-      {{ $hide_published_with_footer := site.Params.power_ups.hide_published_with | default true }}
+      {{ $hide_published_with_footer := site.Params.power_ups.hide_published_with | default false }}
       {{ if not (and $is_sponsor $hide_published_with_footer) }}
         {{ $default := "Site built with lightly customized version of {hugoblox} — Source code available on {repo_link}GitHub{/repo_link}." }}
         {{ $i18n_published_with := i18n "published_with" | default $default }}
