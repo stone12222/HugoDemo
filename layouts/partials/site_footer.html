@@ -2,13 +2,13 @@
 
   {{ partial "blox-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }}
 
-  {{/* Load footer block */}}
+  <!-- {{/* Load footer block */}}
   {{ $footer_section_name := site.Params.footer.block | default "minimal" }}
   {{ $footer_section_path := printf "components/footers/%s.html" $footer_section_name }}
   {{ if not (templates.Exists (printf "partials/%s" $footer_section_path)) }}
     {{ errorf "Check your `params.yaml`. Cannot find footer block at `layouts/partials/%s`" $footer_section_path }}
   {{ end }}
-  {{ partial $footer_section_path . }}
+  {{ partial $footer_section_path . }} -->
 
   <p>
     Site built with lightly customized version of <a href="https://hugoblox.com/?utm_campaign=poweredby">Hugo Blox Builder</a> — Source code available on <a href="https://github.com/HugoBlox/hugo-blox-builder">GitHub</a>.
