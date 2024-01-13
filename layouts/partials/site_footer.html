@@ -1,8 +1,8 @@
 <footer class="site-footer">
 
-    <!-- {{ partial "blox-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }} -->
+    {{ partial "blox-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }}
   
-    {{/* Load footer block */}}
+    <!-- {{/* Load footer block */}}
     {{ $footer_section_name := site.Params.footer.block | default "minimal" }}
     {{ $footer_section_path := printf "components/footers/%s.html" $footer_section_name }}
     {{ if not (templates.Exists (printf "partials/%s" $footer_section_path)) }}
@@ -26,5 +26,5 @@
         {{ $i18n_published_with = replace $i18n_published_with "{/repo_link}" "</a>" | safeHTML }}
         {{ $i18n_published_with | replaceRE "{year}" now.Year | markdownify | emojify | safeHTML }}
       {{ end }}
-    </p>
+    </p> -->
   </footer>
