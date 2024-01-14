@@ -31,7 +31,7 @@
 
   {{ partial "blox-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }}
 
-  <!-- {{ if .IsTranslated | and site.Params.footer.show_translations }}
+  {{ if .IsTranslated | and site.Params.footer.show_translations }}
     <div class="powered-by d-flex flex-wrap pb-2 justify-content-center">
       <div class="p-2 font-weight-bold"><i class="fas fa-globe pr-1" aria-hidden="true"></i>{{ i18n "languages" }}:</div>
       <div class="p-2">{{ index site.Data.i18n.languages .Lang }}</div>
@@ -39,7 +39,7 @@
         <div class="p-2"><a href="{{ .Permalink }}">{{ index site.Data.i18n.languages .Lang }}</a></div>
       {{ end }}
     </div>
-  {{ end }} -->
+  {{ end }}
 
   {{ if or (site.GetPage "/terms.md") (site.GetPage "/privacy.md") }}
   <p class="powered-by">
@@ -69,5 +69,3 @@
   <br style="line-height: 5px" />
   
 </footer>
-
-  <!-- {{ $default := "Site built with lightly customized version of {hugoblox} — Source code available on {repo_link}GitHub{/repo_link}." }} -->
