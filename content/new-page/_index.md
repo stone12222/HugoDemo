@@ -2,7 +2,7 @@
 title: Demo new page apple
 
 # Listing view
-view: landing
+type: landing
 
 # Optional header image (relative to `assets/media/` folder).
 sections:
