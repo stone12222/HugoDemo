@@ -64,8 +64,6 @@ locale:
 features:
   syntax_highlighter:
     enable: true
-    theme_light: igor
-    theme_dark: nord
     extra_languages:
       - r
       - latex
