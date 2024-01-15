@@ -1,8 +1,7 @@
 ---
 title: Demo new page
-
-# Listing view
-view: landing
+date: 2022-10-24
+type: landing
 
 # Optional header image (relative to `assets/media/` folder).
 sections:
