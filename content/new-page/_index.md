@@ -5,6 +5,16 @@ type: landing
 
 # Optional header image (relative to `assets/media/` folder).
 sections:
+  - block: hero
+      content:
+        title: |
+          Cat Group
+        image:
+          filename: welcome.jpg
+        text: |
+          <br>
+          
+          The **Demo Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
   - block: information
     content:
       title: Example Title
