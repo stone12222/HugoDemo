@@ -24,5 +24,6 @@ sections:
   #     image:
   #       filename: example.jpg
 ---
-<h1>apple</h1>
+# Example Title
+<h2 class="p-2 text-dark text-start">Example Title</h1>
 
