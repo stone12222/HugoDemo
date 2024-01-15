@@ -5,7 +5,7 @@
 
 main:
   - name: Home
-    url: /
+    url: 
     weight: 10
   - name: Blog
     url: post
@@ -14,9 +14,9 @@ main:
     url: people
     weight: 30
   - name: Demo new site
-    url: event
+    url: new-page
     weight: 40
-  - name: Projects
+  - name: Event
     url: event
     weight: 50
   - name: Publications
