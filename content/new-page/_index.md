@@ -24,5 +24,15 @@ sections:
   #     image:
   #       filename: example.jpg
 ---
-apple
+sections:
+  - block: hero
+    content:
+      title: |
+        Cat Group
+      image:
+        filename: example.jpg
+      text: |
+        <br>
+        
+        The **Demo Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
 
