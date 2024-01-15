@@ -44,7 +44,7 @@ taxonomies:
   tag: tags
   category: categories
   publication_type: publication_types
-  author: Stone
+  author: authors
 markup:
   _merge: deep
 related:
