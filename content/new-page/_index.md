@@ -6,7 +6,7 @@ view: landing
 
 # Optional header image (relative to `assets/media/` folder).
 sections:
-  - block: 
+  - block: markdown
     content:
       title: Example Title
       text: |- 
