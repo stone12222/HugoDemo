@@ -1,5 +1,5 @@
 ---
-title: Demo new page
+title: Demo new page apple
 
 # Listing view
 view: landing
