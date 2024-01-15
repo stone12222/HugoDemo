@@ -14,5 +14,3 @@ sections:
       image:
         filename: example.jpg
 ---
-
-apple
