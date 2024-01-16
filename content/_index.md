@@ -1,12 +1,12 @@
 ---
 # Leave the homepage title empty to use the site title
-title: Demo
+title: 
 date: 2022-10-24
 type: publication
 
 banner:
   caption: 'apple'
-  image: 'welcome.jpg'
+  image: ''
 
 sections:
   - block: hero
