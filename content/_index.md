@@ -1,12 +1,12 @@
 ---
 # Leave the homepage title empty to use the site title
-title: 
+title: Home
 date: 2022-10-24
 type: landing
 
 banner:
   caption: 'apple'
-  image: ''
+  image: 'welcome.jpg'
 
 sections:
   - block: hero
