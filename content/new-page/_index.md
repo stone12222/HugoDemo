@@ -21,4 +21,4 @@ banner:
 
 ![cat](example.jpg)
 
-[![Video](https://www.youtube.com/watch?v=Euy7bcpphVI)](https://www.youtube.com/watch?v=Euy7bcpphVI)
+[![Video](https://www.youtube.com/watch?v=Euy7bcpphVI)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tiktok.com%2F%40a_zzam_x%2Fvideo%2F7287287172623912194&psig=AOvVaw32gulSvxmarEPtPFYpOvQi&ust=1705522180086000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMic7rDb4oMDFQAAAAAdAAAAABAD)
