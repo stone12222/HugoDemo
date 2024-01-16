@@ -3,6 +3,10 @@ title: Demo new page
 date: 2022-10-24
 type: landing
 
+banner:
+  caption: 'banner loaded using code from page-header.html'
+  image: 'welcome.jpg'
+
 # Optional header image (relative to `assets/media/` folder).
   # - block: information
   #   content:
