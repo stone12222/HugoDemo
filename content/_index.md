@@ -4,10 +4,6 @@ title: Home
 date: 2022-10-24
 type: landing
 
-banner:
-  caption: 'apple'
-  image: 'welcome.jpg'
-
 sections:
   - block: hero
     content:

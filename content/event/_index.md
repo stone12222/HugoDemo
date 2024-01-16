@@ -6,8 +6,8 @@ view: compact
 
 # Optional header image (relative to `assets/media/` folder).
 banner:
-  caption: ''
-  image: ''
+  caption: 'apple'
+  image: 'welcome.jpg'
 ---
 
 <!-- can be removed if needed -->

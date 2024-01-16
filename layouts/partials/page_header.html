@@ -12,8 +12,6 @@
     {{ $title = i18n "talks" }}
   {{ else if eq .Type "publication" }}
     {{ $title = i18n "publications" }}
-  {{ else if eq .Type "landing" }}
-    {{ $title = i18n "publications" }}
   {{end}}
 {{end}}
 
