@@ -1,6 +1,6 @@
 ---
 title: 
-type: event
+type: publication
 
 # Listing view
 view: compact
