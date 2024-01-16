@@ -1,5 +1,6 @@
 ---
 title: 
+type: event
 
 # Listing view
 view: compact
