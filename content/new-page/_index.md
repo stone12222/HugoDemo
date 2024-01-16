@@ -12,7 +12,7 @@ type: landing
   #     image:
   #       filename: example.jpg
 ---
-<h2 class="p-20 text-dark text-start">Example Title</h1>
+<h2 class="px-5 text-dark text-start">Example Title</h1>
 <div class="fs-5 text-break">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</div>
 
 ![cat](example.jpg)
