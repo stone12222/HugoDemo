@@ -16,7 +16,7 @@
 {{end}}
 
 {{/* Banner image */}}
-<!-- {{ if and .Params.banner.image (not (and $featured (not .Params.image.preview_only))) }}
+{{ if and .Params.banner.image (not (and $featured (not .Params.image.preview_only))) }}
 <div class="article-header">
   {{- $img := "" -}}
   {{ $alt := (.Params.banner.caption | default "") | plainify }}
@@ -36,7 +36,7 @@
 
   {{ with .Params.banner.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
 </div>
-{{end}} -->
+{{end}}
 
 {{/* Featured image layout */}}
 {{ if and $featured (not .Params.image.preview_only) }}
