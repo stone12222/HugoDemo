@@ -4,10 +4,6 @@ title:
 date: 2022-10-24
 type: publication
 
-banner:
-  caption: 'apple'
-  image: ''
-
 sections:
   - block: hero
     content:
