@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Cat Group
+        Demo Group
       image:
         filename: welcome.jpg
       text: |
